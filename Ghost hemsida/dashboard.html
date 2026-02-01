@@ -82,6 +82,29 @@ header{
 }
 
 @media (max-width:900px){ .grid{grid-template-columns:1fr} }
+
+
+.guide-step{
+  margin-bottom:14px;
+  padding:12px;
+  background:rgba(255,255,255,0.03);
+  border:1px solid rgba(255,255,255,0.06);
+  border-radius:12px;
+}
+
+.guide-step h3{
+  margin:0 0 6px 0;
+  font-size:14px;
+  color:#93c5fd;
+}
+
+.guide-step p{
+  margin:0;
+  font-size:13px;
+  color:rgba(232,240,255,.75);
+}
+
+  
 </style>
 </head>
 
@@ -127,6 +150,52 @@ header{
     </div>
 
   </div>
+
+  <div class="card">
+  <div class="title">📘 Hur använder jag min licens?</div>
+
+  <div class="guide-step">
+    <h3>🟢 Starta anticheaten</h3>
+    <p>
+      När status är <b>ACTIVE</b> fungerar GhostGuard på din server.<br>
+      Tryck <b>Start</b> om den är avstängd.
+    </p>
+  </div>
+
+  <div class="guide-step">
+    <h3>🔴 Stoppa anticheaten</h3>
+    <p>
+      Om du stänger av licensen (<b>DISABLED</b>) kommer servern automatiskt
+      sluta godkännas av GhostGuard.
+    </p>
+  </div>
+
+  <div class="guide-step">
+    <h3>⏳ Vad betyder "Tid kvar"?</h3>
+    <p>
+      Detta visar hur länge din licens är giltig.<br>
+      När tiden når 0 blir status automatiskt <b>EXPIRED</b>.
+    </p>
+  </div>
+
+  <div class="guide-step">
+    <h3>⬇ Ladda ner anticheaten</h3>
+    <p>
+      Klicka på <b>Ladda ner GhostGuard</b> och lägg mappen i din server.
+      Starta sedan scriptet i din server.cfg.
+    </p>
+  </div>
+
+  <div class="guide-step">
+    <h3>💬 Behöver du hjälp?</h3>
+    <p>
+      All support sker via Discord. Öppna en ticket så hjälper vi dig snabbt.
+    </p>
+  </div>
+</div>
+
+  
+
 </div>
 
 <script>
@@ -262,3 +331,4 @@ loadPlayers();
 </script>
 </body>
 </html>
+
