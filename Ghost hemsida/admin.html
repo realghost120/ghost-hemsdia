@@ -64,25 +64,6 @@
     .msg{margin-top:10px; color:var(--muted); min-height:18px}
     @media (max-width:900px){ .row{grid-template-columns:1fr} }
   
-    .guide-step{
-  margin-bottom:14px;
-  padding:12px;
-  background:rgba(255,255,255,0.03);
-  border:1px solid rgba(255,255,255,0.06);
-  border-radius:12px;
-}
-
-.guide-step h3{
-  margin:0 0 6px 0;
-  font-size:14px;
-}
-
-code{
-  background:#0b1220;
-  padding:3px 6px;
-  border-radius:6px;
-  font-size:12px;
-}
 
   
   </style>
@@ -166,49 +147,7 @@ code{
   </div>
 <div class="card">
   
-  <div class="title">📘 Systemguide (Admin)</div>
 
-  <div class="guide-step">
-    <h3>🔑 Vad är ADMIN_SECRET?</h3>
-    <p>
-      Detta är din backend-nyckel som ger full adminåtkomst.<br>
-      Den måste matcha <code>ADMIN_SECRET</code> i din backend (.env).
-    </p>
-  </div>
-
-  <div class="guide-step">
-    <h3>➕ Skapa licens</h3>
-    <p>
-      Välj antal dagar och klicka <b>Skapa licens</b>.<br>
-      Nyckeln skickas sedan till kunden.
-    </p>
-  </div>
-
-  <div class="guide-step">
-    <h3>👤 Skapa kundkonto</h3>
-    <p>
-      Koppla ett konto till en licens så kunden kan logga in på dashboarden.<br>
-      Kunden använder dessa uppgifter på startsidan.
-    </p>
-  </div>
-
-  <div class="guide-step">
-    <h3>🟢 ACTIVE vs 🔴 DISABLED</h3>
-    <p>
-      <b>ACTIVE</b> = Anticheaten fungerar på servern.<br>
-      <b>DISABLED</b> = Servern nekas och AC stängs av automatiskt.
-    </p>
-  </div>
-
-  <div class="guide-step">
-    <h3>⛔ Om något inte funkar</h3>
-    <p>
-      • Kontrollera att ADMIN_SECRET är rätt<br>
-      • Kontrollera att backend är online<br>
-      • Tryck <b>Refresh</b> för att ladda om licenser
-    </p>
-  </div>
-</div>
 
 </div>
 
@@ -347,4 +286,5 @@ code{
 </script>
 </body>
 </html>
+
 
